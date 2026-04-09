@@ -1,0 +1,33 @@
+{
+  "students": [
+    {
+      "name": "Arjun",
+      "age": 22,
+      "courses": [
+        "Python",
+        "ML"
+      ],
+      "gpa": 8.7
+    },
+    {
+      "name": "Priya",
+      "age": 21,
+      "courses": [
+        "Python",
+        "Web Dev"
+      ],
+      "gpa": 9.1
+    },
+    {
+      "name": "Ravi",
+      "age": 23,
+      "courses": [
+        "DSA",
+        "Python"
+      ],
+      "gpa": 7.8
+    }
+  ],
+  "department": "Computer Science",
+  "year": 2026
+}

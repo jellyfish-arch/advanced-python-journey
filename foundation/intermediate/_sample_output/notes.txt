@@ -1,0 +1,8 @@
+Python Intermediate Notes
+=========================
+1. List comprehensions are concise and powerful.
+2. Decorators modify function behavior elegantly.
+3. Error handling makes code robust and reliable.
+4. File I/O is essential for data processing.
+5. Always use context managers (with statement) for files.
+6. Practice makes perfect!
