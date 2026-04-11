@@ -1,73 +1,192 @@
 # 🚀 Advanced Python Journey
 
-A structured, hands-on repository for mastering Python — from fundamentals to advanced concepts, OOP design patterns, and real-world projects. Built as a learning portfolio and reference guide.
+A structured, hands-on repository for mastering Python — from fundamentals to advanced concepts, OOP design patterns, and real-world problem solving.
+
+Built as both a **learning system** and a **portfolio showcase**.
+
+---
 
 ## 📁 Repository Structure
 
 ```
 advanced-python-journey/
 ├── foundation/
-│   ├── basics/          # Variables, loops, functions, data structures
-│   ├── intermediate/    # Comprehensions, decorators, generators, closures
-│   ├── advanced/        # Deep decorators, context managers, concurrency
-│   └── oops/            # Classes, inheritance, polymorphism, design patterns
+│   ├── basics/          
+│   ├── intermediate/    
+│   ├── advanced/        
+│   └── oops/            
 ├── skills/
 │   ├── automation-scripts/
-│   ├── dsa/             # Data structures & algorithms
-│   ├── file-handling/
-│   └── libraries/       # Popular Python libraries
+│   ├── dsa/             
+│   ├── file-handling/   # Real-world file operations (CRUD, JSON, OS-level tasks)
+│   └── libraries/       
 ├── projects/
 │   └── mini-projects/
-└── testing/             # Unit tests, pytest basics
+└── testing/             
 ```
+
+---
 
 ## 🐍 Foundation
 
 ### Basics
-Core Python fundamentals: variables, loops, functions, lists, tuples, and dictionaries.
 
-### Intermediate (10 Programs)
-Where real Python starts — each program is self-contained with detailed comments and practical examples.
+Core Python fundamentals:
 
-| #  | Topic | Key Concepts |
-|----|-------|--------------|
-| 01 | **List Comprehensions** | Basic, nested, conditional, dict & set comprehensions |
-| 02 | **Lambda, Map, Filter** | Anonymous functions, `map()`, `filter()`, `reduce()`, functional pipelines |
-| 03 | **Decorators (Intro)** | `@wraps`, timer, logger, auth decorators, stacking |
-| 04 | **Error Handling** | `try/except/else/finally`, custom exceptions, exception chaining |
-| 05 | **\*args & \*\*kwargs** | Flexible arguments, unpacking, forwarding, keyword-only params |
-| 06 | **String Formatting** | f-strings, `format()`, `Template`, regex basics |
-| 07 | **File I/O** | Text, JSON, CSV files, `pathlib`, context managers |
-| 08 | **Iterators & Generators** | Custom iterators, `yield`, `send()`, generator pipelines, memory efficiency |
-| 09 | **Collections Module** | `Counter`, `defaultdict`, `namedtuple`, `deque`, `ChainMap` |
-| 10 | **Closures & First-Class Functions** | Higher-order functions, factories, memoization, dispatchers |
-
-### Advanced
-Deep-dive into decorators, generators, context managers, and multithreading/multiprocessing.
-
-### OOP (10 Programs)
-Complete object-oriented programming journey: classes, inheritance, polymorphism, encapsulation, abstraction, magic methods, design patterns (Singleton, Factory), and more.
-
-## 🛠️ Skills
-Practice-oriented modules covering automation scripts, data structures & algorithms, file handling, and popular Python libraries.
-
-## 🧪 Testing
-Unit testing and pytest fundamentals.
-
-## ▶️ How to Run
-
-Each program is self-contained. Run any program directly:
-
-```bash
-python foundation/intermediate/01_list_comprehensions.py
-python foundation/oops/classes_objects.py
-```
-
-## 📌 Tech Stack
-
-- **Language:** Python 3.10+
-- **No external dependencies** for foundation programs (stdlib only)
+* Variables, data types
+* Loops and conditionals
+* Functions
+* Lists, tuples, dictionaries
 
 ---
 
-*Built with consistency, clarity, and real-world applicability in mind.*
+### Intermediate (10 Programs)
+
+Where Python becomes powerful — each program focuses on **real usage patterns**.
+
+| #  | Topic                  | Key Concepts                                   |
+| -- | ---------------------- | ---------------------------------------------- |
+| 01 | List Comprehensions    | Nested, conditional, dict & set comprehensions |
+| 02 | Lambda, Map, Filter    | Functional programming basics                  |
+| 03 | Decorators (Intro)     | Wrappers, logging, timing                      |
+| 04 | Error Handling         | try/except, custom exceptions                  |
+| 05 | *args & **kwargs       | Flexible argument handling                     |
+| 06 | String Formatting      | f-strings, formatting techniques               |
+| 07 | File I/O               | Reading, writing, JSON, CSV                    |
+| 08 | Iterators & Generators | yield, lazy evaluation                         |
+| 09 | Collections Module     | Counter, defaultdict, deque                    |
+| 10 | Closures               | Function factories, memoization                |
+
+---
+
+### Advanced
+
+Deep dive into:
+
+* Advanced decorators
+* Context managers
+* Concurrency (threading, multiprocessing)
+
+---
+
+### OOP (10 Programs)
+
+Covers:
+
+* Classes & objects
+* Inheritance & polymorphism
+* Encapsulation & abstraction
+* Magic methods (`__str__`, `__len__`, etc.)
+* Design patterns (Singleton, Factory)
+
+---
+
+## 🛠️ Skills
+
+Practice-oriented modules focused on **real-world application**.
+
+---
+
+### 📂 File Handling (10 Programs)
+
+Hands-on programs covering essential file operations:
+
+| #  | Program              | Concepts                         |
+| -- | -------------------- | -------------------------------- |
+| 01 | Create & Write File  | File creation, write mode        |
+| 02 | Read File            | File reading, exception handling |
+| 03 | Append to File       | Append mode                      |
+| 04 | Word Count           | Text processing                  |
+| 05 | Line Count           | File iteration                   |
+| 06 | Search in File       | String matching                  |
+| 07 | Copy File            | File duplication                 |
+| 08 | Delete File          | OS operations                    |
+| 09 | List Directory Files | os module usage                  |
+| 10 | JSON Read/Write      | Structured data handling         |
+
+📌 Focus:
+
+* File I/O operations
+* Data persistence
+* Working with OS-level file systems
+
+---
+
+### ⚙️ Automation Scripts
+
+Simple scripts to automate repetitive tasks.
+
+---
+
+### 📊 DSA
+
+Core data structures and algorithms for problem solving.
+
+---
+
+### 📚 Libraries
+
+Exploration of commonly used Python libraries.
+
+---
+
+## 🧪 Testing
+
+* Unit testing basics
+* pytest introduction
+* Writing testable code
+
+---
+
+## ▶️ How to Run
+
+Each program is standalone.
+
+```bash
+python skills/file-handling/create_file.py
+python foundation/intermediate/01_list_comprehensions.py
+```
+
+---
+
+## 📌 Tech Stack
+
+* **Language:** Python 3.x
+* **Libraries:** Standard Library (primarily)
+* Minimal external dependencies
+
+---
+
+## 🎯 Goals of This Repository
+
+* Build strong Python fundamentals
+* Transition from theory → practical implementation
+* Maintain daily coding consistency
+* Create a structured learning path
+* Develop a portfolio for future opportunities
+
+---
+
+## 🚀 Future Enhancements
+
+* Combine scripts into CLI tools
+* Add mini real-world projects
+* Improve modular structure
+* Add documentation for each module
+* Introduce logging and config handling
+
+---
+
+## 📅 Note
+
+This repository is actively maintained as part of a **daily coding streak**.
+Each addition represents incremental learning and discipline.
+
+---
+
+## ⭐ Support
+
+If you find this useful:
+
+* Star ⭐ the repo
+* Fork
