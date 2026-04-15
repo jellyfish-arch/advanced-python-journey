@@ -131,10 +131,25 @@ Exploration of commonly used Python libraries.
 ---
 
 ## 🧪 Testing
-
-* Unit testing basics
-* pytest introduction
-* Writing testable code
+ 
+ Hands-on programs covering essential testing techniques in Python:
+ 
+ | #  | Program                        | Concepts                                   |
+ | -- | ------------------------------ | ------------------------------------------ |
+ | 01 | Unittest Basics                | assertions, test cases, unittest.main()    |
+ | 02 | Pytest Introduction            | function-based testing, simple assertions  |
+ | 03 | Pytest Parametrization         | testing multiple inputs, @pytest.mark      |
+ | 04 | Pytest Fixtures                | setup, teardown, reusable test data        |
+ | 05 | Mocking External APIs          | unittest.mock, Patching, return values     |
+ | 06 | Testing Exceptions             | assertRaises, pytest.raises                |
+ | 07 | Class-Based Testing            | organizing tests, setup/teardown methods   |
+ | 08 | Edge Cases & Validation        | complex logic testing, boundary conditions |
+ 
+ 📌 Focus:
+ 
+ * Writing robust, bug-free code
+ * Automation of verification processes
+ * Using standard and industry-leading testing frameworks
 
 ---
 
@@ -145,6 +160,7 @@ Each program is standalone.
 ```bash
 python skills/file-handling/create_file.py
 python foundation/intermediate/01_list_comprehensions.py
+python testing/01_unittest_basics.py
 ```
 
 ---
