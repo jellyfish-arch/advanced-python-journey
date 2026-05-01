@@ -114,7 +114,14 @@ Hands-on programs covering essential file operations:
 
 ### ⚙️ Automation Scripts
 
-Simple scripts to automate repetitive tasks.
+Automating repetitive tasks for better productivity.
+
+| #  | Program | Description |
+| :-- | :--- | :--- |
+| 01 | [File Organizer](./skills/automation-scripts/01_file_organizer.py) | Sorts files into folders based on extensions. |
+| 02 | [Bulk Rename](./skills/automation-scripts/02_bulk_rename.py) | Batch rename files with prefixes/suffixes. |
+| 03 | [Web Scraper](./skills/automation-scripts/03_web_scraper.py) | Extract headlines and data from websites. |
+| 04 | [System Monitor](./skills/automation-scripts/04_system_monitor.py) | Tracks CPU, Memory, and Disk usage in real-time. |
 
 ---
 
