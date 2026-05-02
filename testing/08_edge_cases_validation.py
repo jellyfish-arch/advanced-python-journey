@@ -35,7 +35,7 @@ def validate_password(password):
     
     return True, "Valid"
 
-# Tests for valid passwords
+# Tests for valid passwords - used this in Professional Testing section.
 @pytest.mark.parametrize("pwd", [
     "StrongP@ss1",
     "Admin#2024",
