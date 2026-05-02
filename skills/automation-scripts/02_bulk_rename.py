@@ -14,7 +14,7 @@ def bulk_rename(directory, prefix="", suffix="", replace_str=None, new_str=""):
     count = 0
     for item in path.iterdir():
         if item.is_file():
-            # Skip the script itself if it's in the same directory
+            # Skip the script itself if it's in the same directory - it skips other python files too
             if item.name == os.path.basename(__file__):
                 continue
                 
