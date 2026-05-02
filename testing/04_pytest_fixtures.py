@@ -24,7 +24,7 @@ def sample_user_db():
     }
     return db
 
-# 2. A fixture with 'yield' for setup and teardown
+# 2. A fixture with 'yield' for setup and teardown - used this in Professional Testing section.
 @pytest.fixture
 def temp_file():
     """Creates a temporary file and deletes it after the test."""
