@@ -13,7 +13,7 @@ Concepts:
 import unittest
 from unittest.mock import patch, MagicMock
 
-# The function we want to test
+# The function we want to test - used this in Professional Testing section.
 def get_weather_report(city):
     """
     Imagine this function uses the 'requests' library to call an API.
