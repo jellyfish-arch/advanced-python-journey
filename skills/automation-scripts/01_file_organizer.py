@@ -12,7 +12,7 @@ def organize_directory(directory_path):
         print(f"Error: {directory_path} is not a valid directory.")
         return
 
-    # Define file type categories
+    # Define file type categories - other file types will be moved to "Others" folder.
     extensions = {
         "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg"],
         "Documents": [".pdf", ".docx", ".doc", ".txt", ".xlsx", ".pptx", ".csv"],
@@ -43,7 +43,7 @@ def organize_directory(directory_path):
                 print(f"Moved: {item.name} -> Others/")
 
 if __name__ == "__main__":
-    # Example usage: Organize the current directory or a specific folder
+    # Example usage: Organize the current directory or a specific folder - if left blank, it will organize the current directory.
     target = input("Enter the directory path to organize (leave blank for current): ").strip()
     if not target:
         target = "."
