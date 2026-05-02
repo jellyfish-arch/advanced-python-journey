@@ -13,7 +13,7 @@ Concepts:
 
 import unittest
 
-# 1. The code we want to test (usually in a separate file)
+# 1. The code we want to test (usually in a separate file) - it can be in the same file for simplicity.
 def add_numbers(a, b):
     return a + b
 
