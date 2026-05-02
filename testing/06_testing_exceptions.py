@@ -12,7 +12,7 @@ Concepts:
 import unittest
 import pytest
 
-# Logic to test
+# Logic to test - used this in Professional Testing section.
 def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("Denominator cannot be zero")
