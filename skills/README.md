@@ -6,8 +6,8 @@ This section of the journey focuses on practical applications of Python, coverin
 
 - **[Automation Scripts](./automation-scripts/)**
   - File management, web scraping, and system monitoring tools.
-- **[DSA (Data Structures & Algorithms)](./dsa/)**
-  - Implementations of core computer science concepts in Python.
+- **[DSA (Data Structures & Algorithms)](./dsa/)** — 10 Programs
+  - Linked lists, stacks, queues, BSTs, hash tables, heaps, graphs, sorting, searching, and dynamic programming — all built from scratch.
 - **[File Handling](./file-handling/)**
   - Advanced techniques for manipulating text, CSV, JSON, and binary files.
 - **[Libraries](./libraries/)**
