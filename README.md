@@ -125,9 +125,22 @@ Automating repetitive tasks for better productivity.
 
 ---
 
-### 📊 DSA
+### 📊 DSA (10 Programs)
 
-Core data structures and algorithms for problem solving.
+Core data structures and algorithms implemented from scratch:
+
+| #  | Program | Key Concepts |
+| -- | ------- | ------------ |
+| 01 | [Singly Linked List](./skills/dsa/01_linked_list.py) | Node-based structure, insert/delete/search, reversal |
+| 02 | [Stack (LIFO)](./skills/dsa/02_stack.py) | Push/pop/peek, balanced parentheses checker |
+| 03 | [Queue & Circular Queue](./skills/dsa/03_queue.py) | FIFO, ring buffer, round-robin scheduler |
+| 04 | [Binary Search Tree](./skills/dsa/04_binary_search_tree.py) | Insert/search/delete, four traversal strategies |
+| 05 | [Hash Table](./skills/dsa/05_hash_table.py) | Separate chaining, dynamic resizing |
+| 06 | [Sorting Algorithms](./skills/dsa/06_sorting_algorithms.py) | Bubble, Selection, Insertion, Merge, Quick Sort |
+| 07 | [Searching Algorithms](./skills/dsa/07_searching_algorithms.py) | Linear, Binary, Jump Search |
+| 08 | [Graph Traversals](./skills/dsa/08_graph_bfs_dfs.py) | Adjacency list, BFS, DFS, shortest path |
+| 09 | [Min-Heap & Priority Queue](./skills/dsa/09_heap_priority_queue.py) | Heapify, sift-up/down, priority scheduling |
+| 10 | [Dynamic Programming](./skills/dsa/10_dynamic_programming.py) | Fibonacci, Knapsack, LCS, Coin Change |
 
 ---
 
