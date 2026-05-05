@@ -19,7 +19,7 @@ def calculate_area(width, height):
 def format_name(first, last):
     return f"{first.capitalize()} {last.capitalize()}"
 
-# Pytest doesn't require a class, just functions prefixed with 'test_'
+# Pytest doesn't require a class, just functions prefixed with 'test_' - used this in Professional Testing section.
 def test_calculate_area_positive():
     assert calculate_area(10, 5) == 50
     assert calculate_area(0, 5) == 0
