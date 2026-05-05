@@ -226,3 +226,7 @@ If you find this useful:
 
 * Star ⭐ the repo
 * Fork
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
