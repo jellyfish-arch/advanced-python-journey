@@ -37,3 +37,7 @@ pytest testing/
 2. **Improves Design:** Testable code is naturally more modular and clean.
 3. **Documentation:** Tests serve as an executable specification of how code should behave.
 4. **Confidence:** Deploy with the certainty that your logic is sound.
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
