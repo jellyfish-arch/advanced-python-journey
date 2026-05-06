@@ -98,3 +98,7 @@ By completing this section, you will be able to:
 - Build production-level Python components
 
 ---
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
