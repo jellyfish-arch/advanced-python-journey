@@ -24,3 +24,7 @@ python foundation/intermediate/01_list_comprehensions.py
 ```
 
 Each program is self-contained with a `if __name__ == "__main__"` block and produces readable terminal output.
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
