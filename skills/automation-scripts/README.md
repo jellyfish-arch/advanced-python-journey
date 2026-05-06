@@ -27,3 +27,7 @@ pip install requests beautifulsoup4 psutil
    ```bash
    python <script_name>.py
    ```
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
