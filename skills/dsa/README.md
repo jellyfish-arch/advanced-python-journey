@@ -32,3 +32,7 @@ python skills/dsa/06_sorting_algorithms.py
 - Understanding time & space complexity trade-offs
 - Applying DSA to real-world problems (scheduling, pathfinding, optimization)
 - Writing clean, well-documented, Pythonic implementations
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
