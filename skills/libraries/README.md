@@ -4,3 +4,7 @@ for learning real tools.
 >>>numpy
 >>>pandas
 >>>matplotlib
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
