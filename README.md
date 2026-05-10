@@ -21,7 +21,12 @@ advanced-python-journey/
 │   ├── file-handling/   # Real-world file operations (CRUD, JSON, OS-level tasks)
 │   └── libraries/       
 ├── projects/
-│   └── mini-projects/
+│   └── python-suite/    # Comprehensive collection of advanced utilities
+│       ├── automation/
+│       ├── security/
+│       ├── utilities/
+│       ├── system/
+│       └── multimedia/
 └── testing/             
 ```
 
@@ -200,6 +205,20 @@ python testing/01_unittest_basics.py
 * Maintain daily coding consistency
 * Create a structured learning path
 * Develop a portfolio for future opportunities
+
+---
+
+## 🛠️ Python Advanced Utility Suite
+
+A comprehensive collection of standalone tools and advanced projects.
+
+| Category | Projects |
+| :--- | :--- |
+| **Automation** | [File Organizer](./projects/python-suite/automation/01_file_organizer.py), [Bulk Renamer](./projects/python-suite/automation/02_bulk_renamer.py) |
+| **Security** | [Password Vault](./projects/python-suite/security/01_password_vault.py), [Metadata Stripper](./projects/python-suite/security/02_meta_stripper.py) |
+| **System** | [System Monitor](./projects/python-suite/system/01_sys_monitor.py) |
+| **Multimedia** | [Text to Speech](./projects/python-suite/multimedia/01_text_to_speech.py), [Hand Tracking](./projects/python-suite/multimedia/02_hand_tracking.py) |
+| **Utilities** | [Expense Tracker](./projects/python-suite/utilities/01_expense_tracker.py), [Markdown to HTML](./projects/python-suite/utilities/02_md_to_html.py), [URL Shortener](./projects/python-suite/utilities/03_url_shortener.py), [Notifier](./projects/python-suite/utilities/04_notifier.py) |
 
 ---
 

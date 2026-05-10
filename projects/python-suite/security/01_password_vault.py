@@ -1,8 +1,11 @@
 import os
 import json
 import base64
+# pyrefly: ignore [missing-import]
 from cryptography.fernet import Fernet
+# pyrefly: ignore [missing-import]
 from cryptography.hazmat.primitives import hashes
+# pyrefly: ignore [missing-import]
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 class PasswordVault:

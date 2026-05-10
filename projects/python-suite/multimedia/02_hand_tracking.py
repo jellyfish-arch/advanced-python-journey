@@ -6,7 +6,9 @@ Dependencies: pip install mediapipe opencv-python
 ────────────────────────────────────────────────
 """
 
+# pyrefly: ignore [missing-import]
 import cv2
+# pyrefly: ignore [missing-import]
 import mediapipe as mp
 import time
 from collections import deque

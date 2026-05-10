@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 from plyer import notification
 import time
 

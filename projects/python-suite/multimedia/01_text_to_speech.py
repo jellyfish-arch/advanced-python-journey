@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 import pyttsx3
 
 def speak_text(text, rate=150, volume=1.0):

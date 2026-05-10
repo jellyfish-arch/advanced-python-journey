@@ -1,3 +1,5 @@
+# pyrefly: ignore [missing-import]
+# pyrefly: ignore [missing-import]
 from PIL import Image
 import os
 import sys
