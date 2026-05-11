@@ -5,10 +5,10 @@ Implementations of standard Queue (FIFO) and Circular Queue with a
 practical task scheduler simulation.
 
 Key Concepts:
-    - First-In, First-Out (FIFO) principle
-    - Circular buffer technique
-    - collections.deque for efficient queues
-    - Real-world application: task scheduling
+    - First-In, First-Out (FIFO) principle,
+    - Circular buffer technique,
+    - collections.deque for efficient queues,
+    - Real-world application: task scheduling.
 """
 
 from collections import deque
@@ -102,7 +102,7 @@ def task_scheduler_demo():
     for task in task_list:
         tasks.enqueue(task)
 
-    print("--- Round-Robin Task Scheduler ---")
+    print("-- Round-Robin Task Scheduler --")
     time_slice = 1
     clock = 0
 
