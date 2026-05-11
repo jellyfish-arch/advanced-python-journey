@@ -5,10 +5,10 @@ A min-heap built from scratch with insert, extract-min, and heapify,
 plus a priority queue for task management.
 
 Key Concepts:
-    - Complete binary tree property
-    - Heap ordering (min-heap)
-    - Sift-up / sift-down operations
-    - Priority queue pattern
+    - Complete binary tree property,    
+    - Heap ordering (min-heap),
+    - Sift-up / sift-down operations,
+    - Priority queue pattern,
 """
 
 
