@@ -1,5 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
+# pyrefly: ignore [missing-import]
+from bs4 import BeautifulSoup   
 import json
 
 def scrape_headlines(url):
@@ -19,7 +20,7 @@ def scrape_headlines(url):
         soup = BeautifulSoup(response.text, 'html.parser')
         
         # This example looks for common header tags (h1, h2, h3)
-        # In a real scenario, you'd target specific classes like 'story-heading'
+        # In a real scenario, you'd target specific classes like 'story heading'
         headlines = []
         for tag in ['h1', 'h2', 'h3']:
             for item in soup.find_all(tag):
