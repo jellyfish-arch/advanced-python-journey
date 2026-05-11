@@ -78,7 +78,7 @@ def benchmark_search(func, data, target, name):
     """Time a search function and return the duration."""
     start = time.perf_counter()
     result = func(data, target)
-    elapsed = (time.perf_counter() - start) * 1_000_000  # microseconds
+    elapsed = (time.perf_counter() - start) * 1_000_000  # microseconds,
     return name, elapsed, result
 
 
