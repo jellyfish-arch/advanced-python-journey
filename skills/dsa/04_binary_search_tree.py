@@ -5,10 +5,10 @@ A complete BST implementation with insert, search, delete, and
 four traversal strategies (in-order, pre-order, post-order, level-order).
 
 Key Concepts:
-    - Tree data structure fundamentals
-    - Recursive insertion and search
-    - Node deletion (three cases)
-    - Depth-first and breadth-first traversals
+    - Tree data structure fundamentals,
+    - Recursive insertion and search,
+    - Node deletion (three cases),
+    - Depth-first and breadth-first traversals.
 """
 
 from collections import deque
