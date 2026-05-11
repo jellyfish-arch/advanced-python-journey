@@ -25,7 +25,7 @@ def scrape_headlines(url):
         for tag in ['h1', 'h2', 'h3']:
             for item in soup.find_all(tag):
                 text = item.get_text().strip()
-                if text and len(text) > 10:  # Filter out very short strings
+                if text and len(text) > 10:  # Filter out very short strings.
                     headlines.append(text)
         
         return list(set(headlines)) # Unique headlines
