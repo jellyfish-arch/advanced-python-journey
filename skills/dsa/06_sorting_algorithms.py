@@ -5,10 +5,10 @@ Side-by-side implementations of classic sorting algorithms with
 performance comparison.
 
 Key Concepts:
-    - Bubble Sort, Selection Sort, Insertion Sort (O(n²))
-    - Merge Sort, Quick Sort (O(n log n))
-    - Stability and in-place sorting
-    - Time complexity comparison
+    - Bubble Sort, Selection Sort, Insertion Sort (O(n²)),
+    - Merge Sort, Quick Sort (O(n log n)),
+    - Stability and in-place sorting,
+    - Time complexity comparison.
 """
 
 import time
